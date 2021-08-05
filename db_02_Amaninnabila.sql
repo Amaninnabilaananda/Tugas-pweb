@@ -1,19 +1,17 @@
 # tugas-pweb
-66 baris (52 sloc)  1,44 KB
-1 -- phpMyAdmin SQL Dump
-2 -- versi 5.0.2
-3 -- https://www.phpmyadmin.net/
-4 --
-5 -- Tuan rumah: 127.0.0.1
-6 -- Waktu Pembuatan: 05 Agustus 2021 pukul 05:58
-7 -- Versi server: 10.4.14-MariaDB
-8 -- Versi PHP: 7.2.33
-9
-10 SET SQL_MODE =  " NO_AUTO_VALUE_ON_ZERO " ;
-11 MULAI TRANSAKSI ;
-12 SET zona_waktu =  " +00:00 " ;
-13
-14
+ -- phpMyAdmin SQL Dump
+ -- versi 5.0.2
+ -- https://www.phpmyadmin.net/
+ --
+ -- Tuan rumah: 127.0.0.1
+ -- Waktu Pembuatan: 05 Agustus 2021 pukul 05:58
+ -- Versi server: 10.4.14-MariaDB
+ -- Versi PHP: 7.2.33
+
+ SET SQL_MODE =  " NO_AUTO_VALUE_ON_ZERO " ;
+ MULAI TRANSAKSI ;
+ SET zona_waktu =  " +00:00 " ;
+
 
 /* !40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */ ;
 /* !40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */ ;
