@@ -39,7 +39,7 @@ CREATE  TABLE ` tb_siswa` (
 --
 
 INSERT INTO  ` tb_siswa ` ( ` id_siswa ` , ` nama di ` , ` hp ` ) VALUES
-( 1 , ' Amaninnabila ' , 265474 );
+( 2 , ' Amanin Nabila Ananda ' , 265474 );
 
 --
 -- Indeks untuk tabel yang dibuang
