@@ -28,7 +28,7 @@ SET zona_waktu =  " +00:00 " ;
 -- Struktur dari tabel `db_02_amaninnabilaananda`
 --
 
-CREATE  TABLE ` db_02_amanonnabilaananda ` (
+CREATE  TABLE ` db_02_amaninnabilaananda ` (
   ` NIM `  varchar ( 20 ) NOT NULL ,
   ` Nama_Siswa `  varchar ( 50 ) NOT NULL ,
   ` Jurusan `  varchar ( 25 ) NOT NULL ,
@@ -36,7 +36,7 @@ CREATE  TABLE ` db_02_amanonnabilaananda ` (
 ) ENGINE = CHARSET DEFAULT InnoDB = latin1;
 
 --
--- Dumping data untuk tabel `db_15_dzakimaulidhidayat`
+-- Dumping data untuk tabel `db_02_amaninnabilaanada`
 --
 
 INSERT INTO  ` db_02_amaninnabilaananda ` ( ` NIM ` , ` Nama_Siswa ` , ` Jurusan ` , ` Angkatan ` ) VALUES
