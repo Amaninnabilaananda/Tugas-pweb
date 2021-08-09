@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- versi 5.1.1
+-- versi 4.7.9
 -- https://www.phpmyadmin.net/
 --
 -- Tuan rumah: 127.0.0.1
--- Waktu Pembuatan: 08 Agustus 2020 15:45
--- Versi server: 10.4.20-MariaDB
--- Versi PHP: 7.4.21
+-- Waktu pembuatan: 09 Agustus 2021 18.13
+-- Versi server: 10.1.31-MariaDB
+-- Versi PHP: 5.6.34
 
 SET SQL_MODE =  " NO_AUTO_VALUE_ON_ZERO " ;
+SET AUTOCOMMIT =  0 ;
 MULAI TRANSAKSI ;
 SET zona_waktu =  " +00:00 " ;
 
@@ -18,48 +19,38 @@ SET zona_waktu =  " +00:00 " ;
 /* !40101 SET NAMA utf8mb4 */ ;
 
 --
--- Basis data: `db_02_amaninnabila`
+-- Basis data: `db_02_amaninnabilaananda`
 --
 
 - ------------------------------------------------ --------
 
 --
--- Struktur tabel untuk tabel `tb_siswa`
+-- Struktur dari tabel `db_02_amaninnabilaananda`
 --
 
-CREATE  TABLE ` tb_siswa` (
-  ` Id_siswa `  int ( 11 ) NOT NULL ,
-  ` Nama di `  varchar ( 100 ) NOT NULL ,
-  ` No_hp `  int ( 15 ) NOT NULL
-) ENGINE = CHARSET DEFAULT InnoDB = utf8mb4;
+CREATE  TABLE ` db_02_amanonnabilaananda ` (
+  ` NIM `  varchar ( 20 ) NOT NULL ,
+  ` Nama_Siswa `  varchar ( 50 ) NOT NULL ,
+  ` Jurusan `  varchar ( 25 ) NOT NULL ,
+  ` Angkatan `  varchar ( 10 ) BUKAN NULL
+) ENGINE = CHARSET DEFAULT InnoDB = latin1;
 
 --
--- Dumping data untuk tabel `tb_siswa`
+-- Dumping data untuk tabel `db_15_dzakimaulidhidayat`
 --
 
-INSERT INTO  ` tb_siswa ` ( ` id_siswa ` , ` nama di ` , ` no_hp ` ) VALUES
-( 1 , ' amanin nabila ' , 265474 ),
-( 2 , ' amanin nabila ' , 265474 );
+INSERT INTO  ` db_02_amaninnabilaananda ` ( ` NIM ` , ` Nama_Siswa ` , ` Jurusan ` , ` Angkatan ` ) VALUES
+( ' 29876454 ' , ' db_02_amaninnabilaananda ' , ' Rekayasa Perangkat Lunak ' , ' 2020 ' );
 
 --
 -- Indeks untuk tabel yang dibuang
 --
 
 --
--- Indeks untuk tabel `tb_siswa`
+-- Indeks untuk tabel `db_02_amaninnabilaananda`
 --
-ALTER  TABLE  ` tb_siswa `
-  ADD PRIMARY KEY ( ` id_siswa ` );
-
---
--- AUTO_INCREMENT untuk tabel yang dibuang
---
-
---
--- AUTO_INCREMENT untuk tabel `tb_siswa`
---
-ALTER  TABLE  ` tb_siswa `
-  MENGUBAH ` id_siswa `  int ( 11 ) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT = 3 ;
+ALTER  TABLE  ` db_02_amaninnabilaananda `
+  ADD PRIMARY KEY ( ` NIM ` );
 BERKOMITMEN ;
 
 /* !40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */ ;
