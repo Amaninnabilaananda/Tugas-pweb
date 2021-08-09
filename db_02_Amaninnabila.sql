@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Tuan rumah: 127.0.0.1
--- Waktu pembuatan: 09 Agustus 2021 18.19
+-- Waktu pembuatan: 09 Agustus 2021 18.23
 -- Versi server: 10.1.31-MariaDB
 -- Versi PHP: 5.6.34
 
@@ -29,7 +29,7 @@ SET zona_waktu =  " +00:00 " ;
 --
 
 
-CREATE  TABLE ` db_02_amaninnabila ` (
+ CREATE  TABLE ` db_02_amaninnabilaananda ` (
   ` NIM `  varchar ( 20 ) NOT NULL ,
   ` Nama_Siswa `  varchar ( 100 ) NOT NULL ,
   ` Jurusan `  varchar ( 25 ) NOT NULL ,
