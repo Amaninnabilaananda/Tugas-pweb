@@ -41,7 +41,7 @@ SET zona_waktu =  " +00:00 " ;
 --
 
 INSERT INTO  ` db_02_amaninnabilaananda ` ( ` NIM ` , ` Nama_Siswa ` , ` Jurusan ` , ` Angkatan ` ) VALUES
-( ' 29876454 ' , ' db_02_amaninnabilaananda ' , ' Rekayasa Perangkat Lunak ' , ' 2020 ' );
+( ' 21821088 ' , ' db_02_amaninnabilaananda ' , ' Rekayasa Perangkat Lunak ' , ' 2020 ' );
 
 --
 -- Indeks untuk tabel yang dibuang
